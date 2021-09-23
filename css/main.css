@@ -1,0 +1,244 @@
+/*
+*{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+}
+
+main p, main a, label, main input, select, option{
+    font-family: 'Roboto', sans-serif!important;
+}
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header *, nav *, footer *, h1, h2, h3, h4, h5{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1rem;
+}
+
+
+main{
+    color: black!important;
+}
+
+
+
+/* header */
+#btn-header{
+    font-size: 0.8rem;
+}
+
+.fab{
+    font-size: 1.5rem;
+}
+
+.fa-instagram:hover{
+    color: #dd2362!important;
+}
+
+.btn-whatsapp-bg{
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.btn-whatsapp-pd{
+    padding-top:13px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.btn-whatsapp-sz span{
+    font-size: 1.3rem !important;
+    text-decoration: none;
+}
+
+.whatsapp a:hover{
+    text-decoration: none!important;
+}
+
+.btn-whatsapp-bg:hover{
+    background-color: #34af23 !important;
+    border-color: #34af23 !important;
+    color: #fff !important;
+}
+
+.icon-whatsapp{
+    color: #28a745 !important;
+}
+
+.link-whatsapp{
+    color: #fff !important;
+}
+
+.link-whatsapp:hover{
+    color: #34af23 !important;
+}
+
+.link-instagram:hover{
+    color: #517fa4 !important;
+}
+
+.whatsapp-fixed{
+    position: fixed;
+    z-index: 9999999;
+    right: 15px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
+    text-align: center;
+    transition: all .3s ease;
+    background-color: #34af23 !important;
+}
+
+.whatsapp-fixed i{
+    font-size: 40px;
+    margin-left: 1px;
+    line-height: 60px;
+}
+
+.ancora-fixed{
+    position: fixed;
+    z-index: 9999999;
+    right: 15px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
+    text-align: center;
+    transition: all .3s ease;
+    background-color: gray !important;
+}
+
+.ancora-fixed:hover{
+    background: red!important;
+}
+
+.ancora-fixed i{
+    font-size: 40px;
+    line-height: 60px;
+}
+
+
+/* header-mobile */
+.btn-whatsapp-mobile{
+    padding-bottom: 1px !important;
+    padding-right: 6px;
+    padding-left: 8px;
+}
+#header-mobile i{
+    font-size: 1.9rem;
+}
+
+#header-mobile .whatsapp a{
+    font-size: 1rem !important;
+}
+
+nav#nav-header{
+    padding: 0.5rem !important;
+}
+
+
+
+/* nav */
+#nav-header a, #conteudo a, .conteudo a{
+    color: #000000 !important;
+}
+
+#nav-header a:hover{
+    text-decoration: underline;
+    color: #000000 !important;
+}
+
+#nav-mobile{
+    display: none;
+}
+
+/* footer */
+footer{
+    background-color: #000000;
+}
+
+footer p{
+    margin: 0 !important;
+}
+
+footer h2{
+    margin-bottom: 0.2rem!important;
+}
+
+.footer-border-bottom{
+    border-top: 1px solid;
+}
+
+.footer-border-bottom-redes{
+    border-bottom: 1px solid;
+}
+
+
+
+/* main */
+.titulo-bg-black{
+    background-color: #000000 !important;
+}
+
+.titulo-index-blog{
+    padding-left: 21% !important;
+}
+
+.titulo-px{
+    padding-left: 10% !important;
+}
+
+.titulo-py{
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width:991px) {
+
+    /* RedesSociais */
+    .fa-instagram{
+        color: #dd2362!important;
+    }
+
+
+    /* main */
+    .titulo-px{
+        padding-left: 5% !important;
+    }
+
+    .titulo-py{
+        padding-top: 0.5rem!important;
+        padding-bottom: 0.5rem!important;
+    }
+
+    .titulo-size{
+        font-size: 3.5rem!important;
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+  
+    
+}
+
+
+
+
+
+/* Retirar */
+footer img{
+    width: 135px;
+}
